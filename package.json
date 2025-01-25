@@ -1,9 +1,8 @@
 {
   "name": "n8n-ai",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r dotenv/config node_modules/n8n/bin/n8n"
   },
   "author": "",
   "license": "ISC",
